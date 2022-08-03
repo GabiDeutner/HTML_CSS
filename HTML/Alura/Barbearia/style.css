@@ -9,3 +9,19 @@ p {
 em strong { /* todas as tags strong dentro de tags em */
     color: #FF0000;
 }
+
+/* Hexadecimal 0123456789ABCDEF
+0 = ausência de cor
+F = máximo de cor
+
+RGB Red Bue Yellow
+0,1,2,3, ...... 255
+0 = ausência
+255 = máximo
+
+Representar o Branco rgb(255,255,255)
+Representar o Azul rgb(0,0,255)
+Vermelho é rgb(255,0,0)
+Verde é rgb(0,255,0)
+
+*/
