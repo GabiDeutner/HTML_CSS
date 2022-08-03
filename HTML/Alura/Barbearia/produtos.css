@@ -1,0 +1,16 @@
+header {
+    background: #BBBBBB;
+}
+
+nav li { /* tudo da tag nav que está dentro da linha da lista */
+    display: inline; /*deixa os itens da navegação (navbar) alinhados um do lado do outro*/
+    margin: 0 0 0 15px; /* aumenta o espaçamento (margem) entre os itens da lista*/
+}
+
+nav a {
+    text-transform: uppercase; /* faz todos os textos dentro da tag nav dentro da tag âncora ficarem maiúsculos */
+    color: #000000;
+    font-weight: bold; /* o "peso" da fonte é em negrito (bold)*/
+    font-size: 22px;
+    text-decoration: none; /* retira o sublinhado que existe no hyperlink*/
+}
