@@ -1,5 +1,10 @@
 body {
-    background: #CCCCCC
+  
+}
+
+.principal{
+    background: #CCCCCC;
+    padding: 30px;
 }
 
 #banner {
@@ -16,6 +21,30 @@ p {
 
 em strong { /* todas as tags strong dentro de tags em */
     color: #FF0000;
+}
+
+.itens {
+    font-style: italic;
+}
+
+.beneficios {
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    display: inline-block; /* faz a imagem e o texto ficarem um ao lado do outro */
+    vertical-align: top; /* os elementos ficam alinhados pelo linha de cima */
+    width: 20%; /* largura da lista */
+    margin-right: 15%; /* da uma margem externa para a lista, deixando ela afastada da imagem */
+}
+
+.imagembeneficios {
+    width: 50%;
 }
 
 /* Hexadecimal 0123456789ABCDEF
