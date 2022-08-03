@@ -1,0 +1,11 @@
+body {
+    background: #CCCCCC
+}
+
+p {
+    text-align: center;
+}
+
+em strong { /* todas as tags strong dentro de tags em */
+    color: #FF0000;
+}
