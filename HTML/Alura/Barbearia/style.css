@@ -7,6 +7,14 @@ body {
     padding: 30px;
 }
 
+.titulo-principal {
+	padding-left: 20px;
+}
+
+.titulo-centralizado {
+	text-align: center
+}
+
 #banner {
     width: 100%;
 }
@@ -32,9 +40,6 @@ em strong { /* todas as tags strong dentro de tags em */
     padding: 20px;
 }
 
-h2 {
-    text-align: center;
-}
 
 ul {
     display: inline-block; /* faz a imagem e o texto ficarem um ao lado do outro */
