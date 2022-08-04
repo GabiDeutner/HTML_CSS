@@ -4,13 +4,13 @@ header {
 }
 
 .caixa {
-    position: relative;
+    position: relative; /* faz a div ter uma posicção relativa no navegador */
     width: 940px;
     margin: 0 auto;
 }
 
 nav {
-    position: absolute;
+    position: absolute; /*faz a posição ser absoluta dentro da div que ele está, ou seja, você consegue posicionar onde quiser dentro dessa div*/
     top: 110px;
     right: 0;
 }
@@ -26,4 +26,35 @@ nav a {
     font-weight: bold; /* o "peso" da fonte é em negrito (bold)*/
     font-size: 22px;
     text-decoration: none; /* retira o sublinhado que existe no hyperlink*/
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
 }
