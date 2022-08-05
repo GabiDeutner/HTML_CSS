@@ -11,6 +11,7 @@
 		<header>
 			<div class="caixa">
 				<h1><img src="logo.png" alt="Logo da Barbearia Alura"></h1>
+				<!--alt faz aparecer o nome da imagem quando passa o mouse em cima-->
 
 				<nav>
 					<ul>
@@ -32,9 +33,10 @@
 
 				<label for="telefone">Telefone</label>
 				<input type="tel" id="telefone" class="input-padrao" required required placeholder="(XX) XXXXX-XXXX">
-
+				<!--placeholder traz uma marca d'água do que deve ser preenchido naquele campo-->
 				<label for="mensagem">Mensagem</label>
 				<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+				<!--required faz o campo ser obrigatório-->
 
 				<fieldset>
 					<legend>Como prefere o nosso contato?</legend>
@@ -43,10 +45,13 @@
 					<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
 					
 					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+					<!--checked deixa o radio já flegado-->
 				</fieldset>
 
 				<fieldset>
+					<!--fieldset é usado para conjuntos de campos referente a um único assunto específico-->
 					<legend>Qual horário prefere ser atendido?</legend>
+					<!--legend é usado para títulos de um fieldset-->
 					<select>
 						<option>Manhã</option>
 						<option>Tarde</option>
