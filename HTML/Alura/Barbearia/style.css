@@ -115,3 +115,21 @@ form label, form legend {
 .checkbox {
 	margin: 20px 0;
 }
+
+.enviar {
+    width:40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px; /*borda arredondada no botão*/
+    transition: 1s all; /*quando o mouse passa sobre o botão, a transição de cor e de tamanho (all) dura 1seg */
+    cursor: pointer; /* faz aparecer uma mão (cursor do mouse) quando passa sobre o botão de enviar */
+}
+
+.enviar:hover {
+    background: darkorange; /*quando o mouse passa sobre o botão, fica laranja escuro*/
+    transform: scale(1.2); /*quando o mouse passa sobre o botão, tamanho aumenta em 20%*/
+}
