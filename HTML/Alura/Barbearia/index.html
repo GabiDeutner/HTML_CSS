@@ -3,37 +3,69 @@
     <head>
         <meta charset="UTF-8"> <!--Encoding da página-->
         <title>Barbearia Alura</title> <!--Título do site que aparece na aba do navegador-->
-        <link rel="stylesheet" href="style-home.css"> <!-- Referenciar o arquivo css-->
+        <link rel="stylesheet" href="reset.css"> 
+        <!-- a ordem é importante! Primeiro colocar o reset e depois colocar o seu arquivo de estilo
+        Se colocar o reset depois ele vai limpar o que você fez no seu arquivo css
+        Por isso o reset sempre vem antes! -->
+        <link rel="stylesheet" href="style.css"> <!-- Referenciar o arquivo css-->
     </head>
+
     <body>
+
+      <!-- header é o cabeçalho-->
         <header>
-			<h1 class="titulo-principal">Barbearia Alura</h1>
-		</header>
+            <div class="caixa">
+                <h1><img src="logo.png"></h1>
+
+                <nav> <!-- É a tag do navbar, ou seja, da navegação do site-->
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+            </nav>
+            </div>
+        </header>
+
         <img id="banner" src="banner.jpg">
-        <div class="principal"></div>
-            <h2 class="titulo-centralizado">Sobre a Barbearia Alura</h2>
 
-            <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. 
-            Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+        <main>  
+            <section class="principal"></div>
+                <h2 class="titulo-centralizado">Sobre a Barbearia Alura</h2>
 
-            <p id = "missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
+                <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. 
+                Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
 
-            <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. 
-             O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
-        </div>
+                <p id = "missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
 
-        <div class="beneficios">
-            <h3 class="titulo-centralizado">Benefícios</h3>
+                <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. 
+                O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+            </section>
+            <!--section é utilizada em vez de div quando se tem um bloco de conteúdo sobre o mesmo assunto
+            Para um bloco onde o conteúdo tenha o mesmo significado, o mesmo sentido, usamos uma <section>
+            Só devemos usar <section> quando o bloco for semântico
+            div é só uma divisão visual, section é para blocos do mesmo assunto-->
+
+            <div class="beneficios">
+                <h3 class="titulo-centralizado">Benefícios</h3>
         
-            <ul>
-                <li class="itens">Atendimento aos Clientes</li>
-                <li class="itens">Espaço diferenciado</li>
-                <li class="itens">Localização</li>
-                <li class="itens">Profissionais Qualificados</li>
-            </ul>
+                <ul>
+                    <li class="itens">Atendimento aos Clientes</li>
+                    <li class="itens">Espaço diferenciado</li>
+                    <li class="itens">Localização</li>
+                    <li class="itens">Profissionais Qualificados</li>
+                </ul>
         
-            <img src="beneficios.jpg" class="imagembeneficios">
-        </div>
+                <img src="beneficios.jpg" class="imagembeneficios">
+            </div>
+        </main>
+
+         <!-- footer é o rodapé do site-->
+        <footer>
+            <img src="logo-branco.png">
+            <p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
+        </footer>
+        
     </body>
 </html>
 
