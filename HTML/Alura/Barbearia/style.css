@@ -230,17 +230,15 @@ td, th {
     font-weight: bold; 
 }
 
-/* first child faz o primeiro item da lista ter certo estilo
-first child é um pseudo elemento 
-existe também o last child, para o último item de uma lista
-.itens:nth-child(4) confere estilo ao quarto elemento da lista
-.itens:nth-child(3) confere estilo ao terceiro elemento da lista
-.itens:nth-child(5) confere estilo ao quinto elemento da lista
-.itens:nth-child(2n) pega todos os elementos pares da lista
-E assim por diante */
-
 .imagem-beneficios {
-	width: 60%;
+    width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000; /* sombra da imagem */
+}
+
+.imagem-beneficios:hover {
+    opacity: 0.3; /*vai de 1 a 0, 0.3 significa 30% da imagem aparecendo quando o mouse passa sobre o objeto) */
 }
 
 .video {
@@ -250,6 +248,7 @@ E assim por diante */
 
 /*
 
+Seletores avançados CSS
 
 main > p  usado para selecionar todos os parágrafos filhos de main
 section + p seleciona somente o primeiro parágrafo que vem após o section
@@ -297,5 +296,26 @@ ou
 
 width: calc( 33% - 10px )
 
+
+===================================================================
+
+SOMBRAS
+
+Como fazer uma sombra interna de um elemento:
+
+box-shadow: inset 0 0 5px black
+
+Sombra interna, preta, com 5px de espalhamento.
+
+====================================================================
+
+first child faz o primeiro item da lista ter certo estilo
+first child é um pseudo elemento 
+existe também o last child, para o último item de uma lista
+.itens:nth-child(4) confere estilo ao quarto elemento da lista
+.itens:nth-child(3) confere estilo ao terceiro elemento da lista
+.itens:nth-child(5) confere estilo ao quinto elemento da lista
+.itens:nth-child(2n) pega todos os elementos pares da lista
+E assim por diante
 
 */
