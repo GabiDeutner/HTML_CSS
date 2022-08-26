@@ -85,6 +85,7 @@ Atributos globais são atributos aplicáveis em todas as Tags, sendo as principa
 =============
 1. class
 =============
+
 class — além de classificar as Tags, é usada para aplicar estilo css e também para acessar 
 com o Java Script. Você pode usar mais de um elemento ou div que tenha a mesma classe.
 
@@ -94,11 +95,15 @@ com o Java Script. Você pode usar mais de um elemento ou div que tenha a mesma 
 ====================
 2. contenteditable
 ====================
+
 contenteditable — usado para editar o conteúdo da página, porém não é mantido após salvar.
 
 <div contentedtable="true">
 </div>
 
+=============
+3. data-*
+=============
 
 data-* — usado para expandir os tipos de atributos que podemos usar para fazer mais tarde lógica no
 Java Script , utilizado em css também.
@@ -107,13 +112,18 @@ Java Script , utilizado em css também.
 </div>
    Escrito com "-" ou tudo junto.
 
+=============
+4. hidden
+=============
 
 hidden — usado para esconder uma Tag.
 <div class="carrinho" hidden>
 conteúdo
 </div>
 
-
+=============
+5. id
+=============
 id — usado apenas 1 por Tag para identificação, para também mais tarde usar no Java Script e css.
 <div id="texto">
 conteúdo
@@ -122,8 +132,21 @@ conteúdo
 <div id="texto2">
 conteúdo
 </div>
+
+Não pode repetir o nome do id. Se for repetir, utilizar a class e não o id.
+
+=============
+6. style
+=============
+
 style — aplica a estilização na Tag, normalmente não se usa "style" dentro da Tag, mas sim em arquivos externos.
 <div style="color: red">
+
+
+=============
+7. tabindex
+=============
+
 tabindex — usado para ordenar o Tab na página.
 <div tabindex="3">
 </div>
@@ -133,7 +156,21 @@ tabindex — usado para ordenar o Tab na página.
 
 <div tabindex="2">
 </div>
-title — serve para definir um título para a Tag, quando colocamos o mouse descansando em cima do conteúdo da página.
+
+Quando você navegar na página e apertar a tecla TAB ele vai selecionar de acordo com a ordem colocada no
+tabindex.
+
+=============
+7. title
+=============
+
+title — serve para definir um título para a Tag, quando colocamos o mouse descansando em cima do 
+conteúdo da página.
+
+
+
+=====================================================================================================================
+=====================================================================================================================
 
 Se você quiser estudar outros Atributos Globais vá ao site https://developer.mozilla.org/pt-BR/ .
 
