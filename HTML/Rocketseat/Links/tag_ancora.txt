@@ -1,0 +1,16 @@
+Conhecendo a tag âncora
+
+São os famosos hyperlinks, e a tag usada para se criar um é a <a href=" ></a>, 
+responsável por ligar várias páginas.
+
+Em sua anatomia ele recebe atributos globais (title, id ,class,...) e o mais importante href, 
+a referência, podendo ser url completa, fragmento, email, telefone e mais diversos outros. 
+há também o atributo de download, que é download="", usado junto do href="",por exemplo, 
+se você colocar o link de uma imagem no href="" com o atributo de download, a imagem será 
+baixada ao invés de irmos até a página e se colocarmos um valor no atributo de download, ele irá 
+dizer como você vai salvar o arquivo.
+
+Por fim temos o atributo target="", que irá dizer qual o alvo do nosso disparo, ou seja, se não 
+tivermos o target, quando clicarmos no link, ele vai pegar o mesmo alvo, a mesma página e apenas vai 
+trocar o conteúdo, mas se usarmos o atributo, por exemplo target="_blank", ele vai abrir uma página 
+com o conteúdo.
