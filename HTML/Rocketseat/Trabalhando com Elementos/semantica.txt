@@ -1,0 +1,10 @@
+Semântica no HTML
+
+- Dar significado;
+- Elementos Semânticos.
+
+Vamos falar de semântica em HTML.
+
+Um dos principais objetivos é dar uma estruturação para o texto, para que haja significado 
+e também uma melhor leitura e para isso usamos elementos semânticos, são mais de 100, 
+mas todos muito importantes, são apenas benefícios.
