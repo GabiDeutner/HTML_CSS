@@ -1,4 +1,1 @@
-# Olá, Mundo!
- Olá, Mundo!
-
- Primeira publicação no GitHub!
+Repositório sobre os meus estudos referentes a HTML e CSS que estou realizando em plataformas de ensino (Alura, Origamid, Rocketseat, etc.). Todos os projetos são de autoria das plataformas, não são meus.
